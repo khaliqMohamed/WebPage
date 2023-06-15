@@ -1,0 +1,98 @@
+body{
+	background-color: #34495E;
+	color: #F4F6F7;
+	margin: 0;
+	line-height: 1.4em;
+	font-family: monospace;
+	font-size: 18px;
+}
+
+.container{
+	width: 50%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.container h1{
+	text-align: center;
+}
+
+#heading{
+	background-color: #3498DB;
+	color: #2E4053;
+	font-family: sans-serif;
+}
+
+#navbar{
+	background-color: #D1F2EB;
+	color: #F7F9F9;
+	
+
+}
+
+#navbar ul{
+	list-style: none;
+	padding: 0px;
+}
+
+#navbar li{
+	display: inline;
+	padding-right: 15px;
+}
+
+#navbar a{
+	color: #E74C3C;
+	text-decoration: none;
+	font-family: serif;
+}
+
+#showwelcome{
+	background-image: url('images.jpg');
+	background-position: center right;
+	min-height: 200px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#showwelcome h3{
+	font-size: 50px;
+	padding-top: 30px;
+	line-height: 1em;
+}
+
+#main-context{
+	float: left;
+	width: 70%;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	background-color: #212F3D ;
+}
+
+#sidecontent{
+	float: right;
+	width: 30%;
+	background-color: #AEB6BF;
+	color: #EAEDED;
+	box-sizing: border-box;
+
+}
+
+#copyrightmsg{
+	text-align: center;
+	background-color: #333;
+	color: 	#fff;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+
+@media(max-width:600px){
+	#main-context{
+		width: 100%;
+		float:none;
+	}
+	#sidecontent{
+		width: 100%;
+		float: none;
+	}
+}
